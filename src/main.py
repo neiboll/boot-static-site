@@ -23,6 +23,6 @@ def main():
     copy_files_recursive(dir_path_static, dir_path_docs)
  
     print("Generating page...")
-    generate_pages_recursive("content", "template.html", "doc", basepath)
+    generate_pages_recursive("content", "template.html", "docs", basepath)
 
 main()
